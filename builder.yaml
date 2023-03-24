@@ -4,8 +4,8 @@ metadata:
   name: kaniko
 spec:
   env:
-  - name: JENKINS_DIRECT_CONNECTION
-    value: jenkins-service.nt-build-jenkins.svc.cluster.local:50000
+#   - name: JENKINS_DIRECT_CONNECTION
+#     value: jenkins-service.nt-build-jenkins.svc.cluster.local:50000
   containers:
   - name: kubectl
     image: joshendriks/alpine-k8s
